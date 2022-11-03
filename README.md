@@ -5,7 +5,7 @@ This application contains a microservice with 2 APIs:
 	1) API to add a new Student record with first name, last name and department name. 
 	2) The API is to retrieve all the student records.
 
-## Technologies Used
+## Technologies/Libraries Used
 
 - Spring Boot 
 - Spring Data MongoDB
