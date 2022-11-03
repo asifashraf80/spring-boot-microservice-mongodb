@@ -9,6 +9,8 @@ import com.daleel.assessment.api.model.Student;
 
 /**
  * @author asifa
+ * Service interface. Controller will call the Service interface instead of calling the Repository directly. 
+ * Any business logic should be written inside the Service implementation instead of inside the controller. 
  *
  */
 public interface StudentService {

@@ -26,8 +26,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class Student {
+	/**
+	 * Made it readonly so that it does not become part of the Rest API, because
+	 * this is an Id field which should always be updated by the MongoDB
+	 */
 	@Id
 	@JsonProperty(access = Access.READ_ONLY)
 	String id;

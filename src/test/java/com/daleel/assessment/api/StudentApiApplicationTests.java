@@ -8,6 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.daleel.assessment.api.controller.StudentController;
 
+/**
+ * Test class to test the spring boot context loading. 
+ * @author muhammad.asif
+ *
+ */
 @SpringBootTest
 class StudentApiApplicationTests {
 
