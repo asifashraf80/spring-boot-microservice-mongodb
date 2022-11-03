@@ -5,6 +5,8 @@ package com.daleel.assessment.api.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,10 +36,10 @@ public class StudentController {
 	}
 	
 	@PostMapping("/students")
-	public ResponseEntity<Student> addStudent(@RequestBody Student student) {
+	public ResponseEntity<Student> addStudent(@Valid @RequestBody Student student) {
 		
 		Student newStudent = studentService.addStudent(student);
 		
-		return new ResponseEntity<>(newStudent, HttpStatus.CREATED);
+		return new ResponseEntity<>(newStudent, HttpStatus.OK);
 	}
 }
