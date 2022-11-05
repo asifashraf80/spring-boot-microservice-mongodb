@@ -1,9 +1,9 @@
 # Spring Boot based microservice with MongoDB backend
 
 ## Introduction
-This application contains a microservice with 2 APIs: 
-	1) API to add a new Student record with first name, last name and department name. 
-	2) The API is to retrieve all the student records.
+This application contains a microservice with 2 APIs:  
+	1) API to add a new Student record with first name, last name and department name.   
+	2) API to retrieve all the student records.
 
 ## Technologies/Libraries Used
 
