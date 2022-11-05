@@ -44,7 +44,7 @@ docker-compose up
 2) Use the POST API to create student record(s)
 3) Use the GET API to retrieve all students created so far. 
 
-## Stop the application
+## Stop and remove the containers
 ```shell
 docker-compose down
 ```
