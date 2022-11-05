@@ -16,6 +16,14 @@ This application contains a microservice with 2 APIs:
 
 ## Steps to build and run the application
 
+### Prerequisites ###
+
+- Java version: 		11.0.16
+- Apache Maven version: 	3.8.6
+- Docer Version:  		20.10.21
+- Docker Compose version:       1.25.0
+
+
 #### Step-1: maven clean install to compile, run unit tests and create the application JAR file ####
 
 ```shell
