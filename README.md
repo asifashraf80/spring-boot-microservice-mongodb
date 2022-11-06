@@ -53,4 +53,3 @@ docker-compose down
 
 ## Further enhancements TODO
 - Add OAuth and JWT token to secure the APIs
-- Paginated results for GET students API
