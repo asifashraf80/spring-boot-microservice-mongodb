@@ -1,9 +1,11 @@
 # Spring Boot based microservice with MongoDB backend
 
 ## Introduction
-This application contains a microservice with 2 APIs:  
+This application contains a microservice with following APIs:  
 	1) API to add a new Student record with first name, last name and department name.   
-	2) API to retrieve all the student records.
+	2) API to retrieve all the student records.  
+	3) API to retrieve student records with pagination based on the given page size.  
+	4) API to filter student records by firstName, lastName and/or department.
 
 ## Technologies/Libraries Used
 
@@ -51,4 +53,3 @@ docker-compose down
 
 ## Further enhancements TODO
 - Add OAuth and JWT token to secure the APIs
-- Paginated results for GET students API

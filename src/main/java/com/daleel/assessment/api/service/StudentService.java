@@ -5,7 +5,10 @@ package com.daleel.assessment.api.service;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+
 import com.daleel.assessment.api.model.Student;
+import com.daleel.assessment.api.model.StudentQuery;
 
 /**
  * @author asifa
@@ -27,4 +30,18 @@ public interface StudentService {
 	 * @return
 	 */
 	public Student addStudent(Student student);
+	
+	/**
+	 * 
+	 * @param studentQuery
+	 * @return
+	 */
+	public List<Student> getStudentsByQuery(StudentQuery studentQuery);
+	
+	/**
+	 * 
+	 * @param studentQuery
+	 * @return
+	 */
+	public Page<Student> getStudentsPaginated(int page, int size, String sort);
 }
