@@ -40,7 +40,7 @@ docker-compose build
 docker-compose up
 ```
 ## Test the application 
-1) Open the selenium UI by accessing following URL http://localhost:8080/swagger-ui/index.html. It will show the documentation for all the Student APIs. 
+1) Open the swagger UI by accessing following URL http://localhost:8080/swagger-ui/index.html. It will show the documentation for all the Student APIs. 
 2) Use the POST API to create student record(s)
 3) Use the GET API to retrieve all students created so far. 
 
